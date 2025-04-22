@@ -2,7 +2,7 @@
 Using Process Integral Derivative for Line Following
 
 ## Program Used
-Because it is easier to test the code, I used a free robot simulation software called [Trik Studio](https://trikset.com/en/products/trik-studio) to make and test all the program in this repository instead of a real robot. It uses a simulated EV3 Mindstorms robot.
+Because it is easier to test the code, I used a free robot simulation software called [Trik Studio](https://trikset.com/en/products/trik-studio) to make and test all the program in this repository instead of a real robot. It uses a simulated EV3 Mindstorms robot. The code of this repository is saved in the PID.qrs file.
 
 ## Normal Line Follow
 A normal line follow using a robot is quiet simple. We use 1 color sensor, if it sees black we only put power on the right wheel so that we do a slight left turn, otherwise, we do the opposite. This is a pretty straightforward way of doing a line follow, however, it is quite slow.
